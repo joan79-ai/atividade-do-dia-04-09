@@ -1,0 +1,22 @@
+<?php
+
+    $primeiroNumero = $_GET['primeiroNumero'];
+    $segundoNumero = $_GET['segundoNumero'];
+    $operacao = $_GET['operacao'];
+    
+    switch ($_GET['operacao']){
+        case 'soma':
+            $resultado = $primeiroNumero + $segundoNumero;
+            
+        case 'subtracao':
+            $resultado= $primeiroNumero - $segundoNumero;
+            
+        case 'multiplicacao':
+            $resultado= $primeiroNumero * $segundoNumero;
+            
+        case 'divisao':
+            $resultado= $primeiroNumero / $segundoNumero;
+
+}
+            
+    
